@@ -8,3 +8,8 @@ urlpatterns = [
     path('add-mission/', add_mission, name='add_mission'),
     path('ws/<int:mission_id>/', websocket_handler, name='websocket_handler'),
 ]
+
+
+
+
+#testing local sonar
